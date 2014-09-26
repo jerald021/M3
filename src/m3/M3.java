@@ -1,28 +1,26 @@
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package m3;
-import java.util.Scanner;
 
 /**
  *
- * @author ismael
+ * @author ismael trascastro
  */
 public class M3 {
-    public static void main(String args[]) {
-        int num1;
-        int num2;
-        int result;
+    public static void main(String[] args) {
+        int n1 = 4;
+        int n2 = 5;
         
-        Scanner teclado = new Scanner(System.in);
+        int resultado;
         
-        System.out.println("Introduce los dos operandos y el resultado");
+        resultado = n1 + n2;
         
-        num1 = teclado.nextInt();
-        num2 = teclado.nextInt();
-        result = teclado.nextInt();
+        System.out.println("El resultado es: " + resultado);
         
-        System.out.println(num1 * num2 == result);
+        n1 = 8;
     }
 }
